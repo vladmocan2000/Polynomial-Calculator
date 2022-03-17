@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.tuc.tp.proiect1.GUI.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="421.0" prefWidth="377.0">
+         <children>
+            <TextField fx:id="polinom_1" layoutX="20.0" layoutY="51.0" prefHeight="25.0" prefWidth="151.0" />
+            <TextField fx:id="polinom_2" layoutX="20.0" layoutY="121.0" prefHeight="25.0" prefWidth="151.0" />
+            <TextField fx:id="polinom_rez" layoutX="14.0" layoutY="276.0" prefHeight="25.0" prefWidth="352.0" />
+            <Label layoutX="60.0" layoutY="21.0" text="Polynomial 1" />
+            <Label layoutX="60.0" layoutY="90.0" text="Polynomial 2" />
+            <Button fx:id="addButton" layoutX="110.0" layoutY="205.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="72.0" text="Add" />
+            <Button fx:id="subtractButton" layoutX="202.0" layoutY="205.0" mnemonicParsing="false" onAction="#subtract" prefHeight="25.0" prefWidth="72.0" text="Subtract" />
+            <Button fx:id="multiplyButton" layoutX="293.0" layoutY="205.0" mnemonicParsing="false" onAction="#multiply" prefHeight="25.0" prefWidth="72.0" text="Multiply" />
+            <Button fx:id="divideButton" layoutX="10.0" layoutY="205.0" mnemonicParsing="false" onAction="#divide" prefHeight="25.0" prefWidth="72.0" text="Divide" />
+            <Button fx:id="deriveButton" layoutX="190.0" layoutY="51.0" mnemonicParsing="false" onAction="#derive" prefHeight="25.0" prefWidth="72.0" text="Derive" />
+            <Button fx:id="integrateButton" layoutX="281.0" layoutY="51.0" mnemonicParsing="false" onAction="#integrate" prefHeight="25.0" prefWidth="72.0" text="Integrate" />
+         </children></Pane>
+   </children>
+</GridPane>
